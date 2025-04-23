@@ -20,11 +20,11 @@
 
     menu.innerHTML = `
         <div id="menuContent">
-            <strong>Resource Booster</strong><br><br>
-            <button id="doubleMoney" style="margin:5px;">Double Money</button>
-            <button id="doubleGold" style="margin:5px;">Double Gold</button>
-            <button id="doubleSkill" style="margin:5px;">Double Skill Points</button>
-            <button id="doubleBB" style="margin:5px;">Double Black Bricks</button>
+            <strong>Idle Breakout - Menu by blakecakeyt</strong><br><br>
+            <button id="doubleMoney" style="margin:5px;">OP Money</button>
+            <button id="doubleGold" style="margin:5px;">OP Gold</button>
+            <button id="doubleSkill" style="margin:5px;">OP Skill Points</button>
+            <button id="doubleBB" style="margin:5px;">OP Black Bricks</button>
         </div>
         <button id="toggleMenu" style="margin-top:10px; width:100%;">Minimize</button>
     `;
@@ -64,7 +64,7 @@
     // Button logic
     document.getElementById("doubleMoney").onclick = () => {
         try {
-            _E7(0)._F8 *= 2;
+            _E7(0)._F8 *= 9999999999999999999999999999999999999999999999999;
         } catch {
             alert("Error doubling money.");
         }
@@ -72,7 +72,7 @@
 
     document.getElementById("doubleGold").onclick = () => {
         try {
-            _E7(0)._Y8 *= 2;
+            _E7(0)._Y8 *= 9999999999999999999999999999999999999999999999999;
         } catch {
             alert("Error doubling gold.");
         }
@@ -80,7 +80,7 @@
 
     document.getElementById("doubleSkill").onclick = () => {
         try {
-            _E7(0)._49 *= 2;
+            _E7(0)._49 *= 9999999999999999999999999999999999999999999999999;
         } catch {
             alert("Error doubling skill points.");
         }
@@ -88,7 +88,7 @@
 
     document.getElementById("doubleBB").onclick = () => {
         try {
-            _E7(0)._39 *= 2;
+            _E7(0)._39 *= 9999999999999999999999999999999999999999999999999;
         } catch {
             alert("Error doubling black bricks.");
         }
